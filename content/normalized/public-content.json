@@ -1,0 +1,2677 @@
+{
+  "inventory": {
+    "reforms": 50,
+    "laws": 10,
+    "quarters": 16,
+    "sources": 32,
+    "constitutionalItems": 11
+  },
+  "reforms": [
+    {
+      "id": "JUST-01",
+      "sector": "justitie",
+      "titlu": "Protecție rapidă în violența domestică",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Mai multă protecție și pedepse severe în violență domestică.",
+      "design_implementabil": "Echipă interinstituțională 24/7; evaluarea riscului la fiecare apel; legătură poliție-parchet-servicii sociale; monitorizare respectare ordin; locuri reale în adăposturi; program de asistență juridică gratuită; audit la 6 luni al cazurilor în care victimele ceruseră ajutor.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S10",
+        "S11",
+        "S12"
+      ],
+      "verificari_legale_necesare": "Legea 217/2003, 26/2024, 36/2026; competențe autorități; GDPR",
+      "faza_in_mandat": "Y1-Q1..Y2-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "timp median intervenție",
+        "% victime contactate în termen legal",
+        "încălcări ordin de protecție repetate",
+        "număr locuri sigure funcționale"
+      ],
+      "riscuri_critice": "Supra-încărcarea poliției și publicarea identității victimelor.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "JUST-02",
+      "sector": "justitie",
+      "titlu": "Omoruri, abuz grav, recidivă",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Legi mai dure pentru crime grave, inclusiv omoruri în contexte familiale.",
+      "design_implementabil": "Analiză de agravante verificabile: premeditare, cruzime, violență repetată, încălcarea ordinului de protecție; pedepse proporționale în Codul penal; specializarea parchetelor; protecția martorilor; monitorizare recidivă; niciun automatism care anulează judecătorul.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S08",
+        "S13",
+        "S10"
+      ],
+      "verificari_legale_necesare": "Constituție art. 21/23, individualizarea pedepsei, CEDO; separația puterilor",
+      "faza_in_mandat": "Y1-Q2..Y3-Q2",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "timp soluționare dosare omor",
+        "procent ordine încălcate",
+        "recidivă după condamnare"
+      ],
+      "riscuri_critice": "Pedeapsa automată maximă poate fi neconstituțională; gradarea necesită expertiză penală.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "JUST-04",
+      "sector": "justitie",
+      "titlu": "Poliție, procurori și sprijin victime",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Răspuns aspru pentru incompetență și abuz.",
+      "design_implementabil": "Inspecții administrative pe indicatori; audiere în spații protejate; proceduri standard de conservare probe; formare personal, sancțiuni disciplinare motivate; raport anual independent.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S08",
+        "S13"
+      ],
+      "verificari_legale_necesare": "Independența procurorilor și judecătorilor; responsabilitate disciplinară legală.",
+      "faza_in_mandat": "Y1-Q1..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "dosare cu probe conservate corect",
+        "plângeri soluționate în termen"
+      ],
+      "riscuri_critice": "Presiune politică asupra anchetelor.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "ROAD-01",
+      "sector": "siguranta_rutiera",
+      "titlu": "Trei evaluări auto cu examinatori diferiți",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Fiecare candidat trebuie să treacă trei teste de condus cu polițiști diferiți.",
+      "design_implementabil": "Trei probe PRACTICE de conducere cu trei examinatori diferiți: (I) trafic urban și intersecții aglomerate, (II) trafic extraurban/noapte-vizibilitate redusă în condiții sigure și legale, (III) scenarii de risc controlat/pistă omologată și comportament defensiv. Proba teoretică rămâne prerechizit separat. Examinatori repartizați aleatoriu, probe înregistrate legal, contestație, pilot multijudețean și program de acces financiar pentru persoane vulnerabile. Nu se simulează vreme periculoasă pe drum public.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S16"
+      ],
+      "verificari_legale_necesare": "Revizuire OUG 195/2002 și ordine examinare; costuri/capacitate; examinatori instruiți.",
+      "faza_in_mandat": "Y1-Q2..Y3-Q2",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "incidente/km la începători",
+        "rate de contestații admise",
+        "cost pe candidat",
+        "timp mediu programare"
+      ],
+      "riscuri_critice": "Poate mări timpul/costurile și exclude disproporționat elevi cu venit mic.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "ROAD-02",
+      "sector": "siguranta_rutiera",
+      "titlu": "Risc crescut în anii 3–4 de permis",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "În primii doi ani după perioada de începător, dacă un șofer cauzează accident mortal prin viteză neadaptată la oră/vreme, pedeapsă maximă.",
+      "design_implementabil": "Perioadă extinsă de supraveghere educativă pentru anii 3–4; dovada cauzalității prin expertiză viteză, carosabil, vizibilitate, anvelope, stare vehicul; agravante în funcție de culpă gravă și rezultat; interdicție temporară/permanentă de conducere când instanța o justifică; nicio pedeapsă automată doar pentru vârsta permisului.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S13",
+        "S15",
+        "S16"
+      ],
+      "verificari_legale_necesare": "Cod penal art. 192 și legea 213/2023; legalitatea incriminării, proporționalitate, prezumție nevinovăție.",
+      "faza_in_mandat": "Y1-Q2..Y3-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "decese pe 1mld km",
+        "viteze excesive în accidente mortale",
+        "recidivă condus periculos"
+      ],
+      "riscuri_critice": "Vinovăția nu poate fi dedusă din simpla supraviețuire a șoferului.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "ROAD-03",
+      "sector": "siguranta_rutiera",
+      "titlu": "Cauze și expertiză obligatorii în accidente mortale",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Nu doar existența răniților, ci cauza reală: viteza neadaptată la vreme și oră.",
+      "design_implementabil": "Protocol independent de reconstrucție accident cu date tahograf/EDR disponibile legal, urme frânare, meteo, expertiză rutieră, camere admisibile, infrastructură; raport anonim pe cauze sistemice.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S13",
+        "S16"
+      ],
+      "verificari_legale_necesare": "Protecția datelor; standarde de expertiză; independența anchetei.",
+      "faza_in_mandat": "Y1-Q2..Y2-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "% accidente fatale cu reconstrucție completă",
+        "% puncte negre remediate"
+      ],
+      "riscuri_critice": "Suprainterpretarea datelor din fotografie sau video.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "ROAD-04",
+      "sector": "siguranta_rutiera",
+      "titlu": "Siguranță infrastructură și control viteză",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Pedepse ferme concomitent cu drumuri care nu omoară.",
+      "design_implementabil": "Audit puncte negre, separatoare, marcaje, iluminat, treceri sigure, verificarea pantelor și drenajului; radare cu proceduri verificabile și control anti-corupție.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [],
+      "verificari_legale_necesare": "Achiziții, omologări, standarde de siguranță rutieră.",
+      "faza_in_mandat": "Y1-Q1..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "decese trafic per milion locuitori",
+        "km puncte negre corectate"
+      ],
+      "riscuri_critice": "Focalizare pe pedepse fără corecții de sistem.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "ANIM-01",
+      "sector": "protectia_animalelor",
+      "titlu": "Personal certificat în adăposturi",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Îngrijitori plătiți și instruiți; pedepse 5–13 ani pentru omorârea sau traumatizarea gravă a animalelor.",
+      "design_implementabil": "Licență de îngrijitor; cursuri etologie, bunăstare, prim ajutor; salarii contractuale, raportare incidente; propunere distinctă de înăsprire 5–13 ani pentru cruzime intenționată severă produsă de persoană aflată în poziție de îngrijire, cu gradații pe gravitate.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S14",
+        "S29"
+      ],
+      "verificari_legale_necesare": "Legea 205/2004 art.25 actual 2–7 pentru ucidere intenționată fără drept / schingiuire; cerințe de proporționalitate și delimitarea neglijenței de intenție.",
+      "faza_in_mandat": "Y1-Q1..Y3-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "% îngrijitori instruiți",
+        "decese evitabile animale în adăpost",
+        "inspecții neanunțate"
+      ],
+      "riscuri_critice": "Termenul vag traumatizare fără definiție penală precisă; excepții veterinare justificate.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "ANIM-02",
+      "sector": "protectia_animalelor",
+      "titlu": "Abandon și cruzime gravă: propunere 8–18 ani",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Persoanele care chinuie sau ucid animale abandonate: 8–18 ani în cazuri extrem de grave.",
+      "design_implementabil": "Definire distinctă a abandonului, rănirii, torturii sistematice, uciderii cu cruzime, repetării; 8–18 ani ca interval dorit de autor pentru formă calificată intenționată, supus testării constituționale și comparării cu omorul și alte infracțiuni; sancțiuni suplimentare: interdicție de deținere, confiscare potrivit legii, obligarea la acoperire cheltuieli de recuperare.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S14",
+        "S29"
+      ],
+      "verificari_legale_necesare": "Art. 25 Legea 205/2004; proporționalitate penală; legalitatea pedepsei și probe.",
+      "faza_in_mandat": "Y1-Q2..Y2-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "condamnări bazate pe probe solide",
+        "recidiva cruzimii",
+        "timp răspuns la sesizări"
+      ],
+      "riscuri_critice": "Intervalul fără gradație pentru faptă minoră ar încălca proporționalitatea.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "ANIM-03",
+      "sector": "protectia_animalelor",
+      "titlu": "Supraveghere puncte de abandon",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Investiții masive în camere ascunse acolo unde animalele sunt aruncate.",
+      "design_implementabil": "Cartografiere puncte abandon din sesizări; camere legale în spații publice/ale autorităților; opțiuni discrete doar dacă sunt permise și justificate legal, cu analiză DPIA, acces restrâns, retenție limitată și notificare când obligația există; sesizări cetățeni cu protecție anti-abuz.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S08",
+        "S14"
+      ],
+      "verificari_legale_necesare": "GDPR, autorizații proprietate, protecție viață privată; nu supraveghere secretă generalizată.",
+      "faza_in_mandat": "Y1-Q2..Y3-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "abandonuri detectate",
+        "timp reacție poliția animalelor",
+        "sesizări confirmate"
+      ],
+      "riscuri_critice": "Camerele ascunse indiscriminat pot încălca dreptul la viață privată.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "ANIM-04",
+      "sector": "protectia_animalelor",
+      "titlu": "Rețea de adăposturi și hrană",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Animalele au drept la hrană, tratamente și adăpost.",
+      "design_implementabil": "Standard minim m²/specie, temperatură, igienă, hrană și apă, izolare boli, sterilizare, microcipare, adopții verificate; bugete pe animal îngrijit; contracte bazate pe bunăstare; inspecții filmate legal.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S14"
+      ],
+      "verificari_legale_necesare": "Contractare publică; veterinar ANSVSA; management câini fără stăpân.",
+      "faza_in_mandat": "Y1-Q1..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "% adăposturi acreditate",
+        "rata adopțiilor",
+        "boli tratabile",
+        "mortalitate evitabilă"
+      ],
+      "riscuri_critice": "Finanțare insuficientă, supraaglomerare, date false.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "EDU-01",
+      "sector": "educatie",
+      "titlu": "Creativitate clasele I–IV",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Copiii își identifică pasiunile în primele 4 clase.",
+      "design_implementabil": "2–3 ore/săptămână ateliere de muzică, tehnologie, natură, sport, teatru, logică, meșteșuguri; portofoliu progresiv fără etichetare definitivă; acces rural garantat; consilieri vocaționali.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S17"
+      ],
+      "verificari_legale_necesare": "Legea 198/2023 și curriculum; formare profesori.",
+      "faza_in_mandat": "Y1-Q3..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "participare pe venit și rural/urban",
+        "bunăstare elev",
+        "continuitate interes"
+      ],
+      "riscuri_critice": "Specializarea prea devreme poate bloca evoluția copilului.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "EDU-02",
+      "sector": "educatie",
+      "titlu": "Rute de pasiune gimnaziu-liceu",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "În liceu elevul să aprofundeze domeniul descoperit.",
+      "design_implementabil": "Module vocaționale opționale, schimbare de rută posibilă semestrial; parteneriate cu ateliere/firme/universități, stagii sigure; evaluare competențe demonstrabile.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S17"
+      ],
+      "verificari_legale_necesare": "Curriculum, acreditare, egalitate acces.",
+      "faza_in_mandat": "Y2-Q1..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "abandon școlar",
+        "rata tranziție profesională",
+        "elevi care schimbă fără penalizare ruta"
+      ],
+      "riscuri_critice": "Segregare educațională în funcție de venit.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "EDU-03",
+      "sector": "educatie",
+      "titlu": "Maniere, responsabilitate, respect",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Educație pentru maniere, comportament, tradiții românești.",
+      "design_implementabil": "Modul comun tuturor elevilor: politețe, consimțământ, respect, conversație, etică digitală, responsabilități civice, conflicte nonviolente; studierea patrimoniului local cu surse istorice.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S08",
+        "S17"
+      ],
+      "verificari_legale_necesare": "Fără îndoctrinare politică sau religioasă; constituție art. 29/32.",
+      "faza_in_mandat": "Y1-Q3..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "climat școlar",
+        "incidente bullying",
+        "competențe civice"
+      ],
+      "riscuri_critice": "Stigmatizare sex sau clasă socială.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "EDU-04",
+      "sector": "educatie",
+      "titlu": "Culturi și limbi ale altor țări",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Elevii să cunoască tradiții străine și expresii de bază în alte limbi, nu numai engleză.",
+      "design_implementabil": "Module interculturale rotative 5–10 săptămâni: limba, saluturi, norme, istorie, legi elementare, expresii practice; educație critică împotriva stereotipurilor; opțional schimburi Erasmus.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S17"
+      ],
+      "verificari_legale_necesare": "Curriculum, drept la educație și non-discriminare.",
+      "faza_in_mandat": "Y1-Q4..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "limbi explorate",
+        "teste practice comunicare",
+        "participare rural"
+      ],
+      "riscuri_critice": "Supraîncărcare curriculară fără eliminarea unor competențe de bază.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "EDU-05",
+      "sector": "educatie",
+      "titlu": "Sporturi preferate, opțiuni pe grupe",
+      "statut_origine": "interpretare_conservand_optiunea_autorului",
+      "propunere_autor": "Separare practică volei/fotbal și sesiuni speciale de sport și istorie pentru băieți.",
+      "design_implementabil": "O sesiune săptămânală de alegere sportivă, inclusiv grupe după interes/nivel și, unde justifică siguranța și echitatea competițională, sex/vârstă; fetele pot alege fotbal și băieții volei; ore de istorie aplicată accesibile egal tuturor, nu privilegii de gen.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S08",
+        "S17"
+      ],
+      "verificari_legale_necesare": "Art.16 egalitate; protecția copilului, curricula națională.",
+      "faza_in_mandat": "Y1-Q4..Y3-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "participare sport",
+        "accidente la sport",
+        "satisfacția pe opțiuni"
+      ],
+      "riscuri_critice": "Excluderea elevilor pe sex în mod rigid poate discrimina.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "EDU-06",
+      "sector": "educatie",
+      "titlu": "Autoapărare și drepturile omului",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Femeile să se apere de agresori; băieții să deprindă disciplină, autoapărare și drepturi.",
+      "design_implementabil": "Tehnici proporționale de de-escaladare, apel 112, prevenție, prim ajutor, sport de contact supravegheat doar cu consimțământ; cursuri juridice despre integritate fizică, consimțământ, bullying și intervenție sigură, pentru toate genurile.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S17",
+        "S08"
+      ],
+      "verificari_legale_necesare": "Prevenirea accidentărilor, dreptul la integritate, curriculum.",
+      "faza_in_mandat": "Y1-Q3..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "competențe verificate în simulări",
+        "sesizări violență",
+        "accidentări la antrenament"
+      ],
+      "riscuri_critice": "Confundarea autoapărării cu autorizarea violenței.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "EDU-07",
+      "sector": "educatie",
+      "titlu": "Autoritate profesorilor și control anti-abuz",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Cadre didactice mai autoritare, dar numai cu dovezi clare și răspundere.",
+      "design_implementabil": "Protocol de disciplină predictibil: avertizare, mediere, plan de comportament, sprijin psiholog, sancțiuni graduale în limitele legii, plângere independentă; protecție profesori la agresiuni; interzicerea violenței și umilirii copiilor.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S17",
+        "S18"
+      ],
+      "verificari_legale_necesare": "Legea 198/2023, drepturile copilului, proceduri sesizare 2023.",
+      "faza_in_mandat": "Y1-Q1..Y3-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "agresiuni raportate",
+        "plângeri soluționate",
+        "timp intervenție"
+      ],
+      "riscuri_critice": "Puterea fără control poate produce abuz.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "EDU-08",
+      "sector": "educatie",
+      "titlu": "Camere în clase cu limite stricte",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Camere de supraveghere permanentă în toate clasele.",
+      "design_implementabil": "Studiu de necesitate pe școli, consultări, evaluare de impact a datelor copiilor, criterii de proporționalitate, separare de monitorizarea pedagogică, acces numai la incidente, loguri, ștergere la termene legale; alternativă: butoane panică și supraveghere coridoare.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S17",
+        "S08",
+        "S31",
+        "S32"
+      ],
+      "verificari_legale_necesare": "Legea 198/2023 / procedura audio-video 2025, GDPR, art.26 viață privată; verificare condiții actuale înainte de obligativitate. Procedura aprobată prin Ordin 3781/2025 prevede utilizare numai pentru protecție și prevenirea violenței, decizie justificată, spații aprobate și stocare normală de 30 zile.",
+      "faza_in_mandat": "Y1-Q1..Y2-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "incidente soluționate prin dovezi",
+        "accesări neautorizate",
+        "opinia elevilor/familiilor"
+      ],
+      "riscuri_critice": "Supraveghere continuă a minorilor poate încălca viața privată; nu toate școlile justifică aceeași măsură.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "EDU-09",
+      "sector": "sanatate_scolara",
+      "titlu": "Cabinet medical funcțional și personal instruit",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Fiecare liceu să dispună de medicație și asistență medicală.",
+      "design_implementabil": "Inventar standard aprobat medical, medicamente permise conform licenței/prescripției și protocoalelor, personal medical în program, dotări de urgență, integrarea dispensarelor pentru școli mici; nu administrare liberă de antiemetice.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S17"
+      ],
+      "verificari_legale_necesare": "Autorizații medicale, regim medicamente, consimțământ, contraindicații.",
+      "faza_in_mandat": "Y1-Q2..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "% unități cu cabinet accesibil",
+        "timp răspuns urgență",
+        "consumabile suficiente"
+      ],
+      "riscuri_critice": "Administrarea nepotrivită de medicamente poate dăuna copiilor.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "EDU-10",
+      "sector": "sanatate_scolara",
+      "titlu": "Demnitate și igienă menstruală",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Tampoane/absorbante gratuite, medicamente adecvate, două cabine de duș obligatorii la licee.",
+      "design_implementabil": "Produse menstruale gratuite și discrete; două cabine individuale cu apă caldă și intimitate la licee, etapizate pe infrastructură; vestiare și haine de schimb; acces pentru cine are nevoie; medicație numai după protocol clinic.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S17"
+      ],
+      "verificari_legale_necesare": "Cod sanitar clădiri, proiectare accesibilitate, intimitate, buget mentenanță.",
+      "faza_in_mandat": "Y1-Q3..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "% licee cu produse disponibile",
+        "% licee cu cabine funcționale",
+        "absențe cauzate de lipsa facilităților"
+      ],
+      "riscuri_critice": "Costuri de operare și risc de încălcare a intimității.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "EDU-11",
+      "sector": "sanatate_scolara",
+      "titlu": "Alergii alimentare și cantine sigure",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Bucătăria știe alergiile și prepară porții separate, plătind corect angajații.",
+      "design_implementabil": "Registru confidențial pe bază de acord legal, etichete alergeni, bucătărie anti-contaminare încrucișată, meniuri echivalente nutrițional, trasabilitate loturi, instruire personal, plan de șoc anafilactic.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S17"
+      ],
+      "verificari_legale_necesare": "GDPR medical, siguranță alimentară, standarde alergeni, aviz dietetician/medic.",
+      "faza_in_mandat": "Y1-Q1..Y3-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "incidente alergice la cantină",
+        "% personal instruit",
+        "% copii cu meniuri sigure"
+      ],
+      "riscuri_critice": "Scurgeri de date medicale sau contaminări.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "EDU-12",
+      "sector": "sanatate_scolara",
+      "titlu": "Diabet și urgențe medicale la copii",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Elevii să știe să ajute un coleg cu diabet.",
+      "design_implementabil": "Formare adaptată vârstei: recunoaștere simptome, anunțare adult/112, nu administrare nesupravegheată de insulină; plan individual de îngrijire și consumabile; învățare antistigmatizare.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S17"
+      ],
+      "verificari_legale_necesare": "Protocoale medicale și protecția datelor, acord individualizat.",
+      "faza_in_mandat": "Y1-Q2..Y3-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "personal instruit",
+        "episoade gestionate corect",
+        "discriminări raportate"
+      ],
+      "riscuri_critice": "Presiune pe alți copii să ofere tratament medical.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "DEF-01",
+      "sector": "aparare",
+      "titlu": "Serviciu militar de un an după liceu",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Un an de armată obligatorie după terminarea liceului.",
+      "design_implementabil": "Analiză obligatoriu vs voluntariat extins; proiect pilot 6–12 luni pe voluntari cu componente apărare, protecție civilă, prim ajutor, IT și logistică; dacă se decide obligativitate, lege nouă, buget, capacitate cazare, aplicare egală, alternative de serviciu civil pentru obiecție de conștiință, scutiri medicale.",
+      "instrument_juridic_probabil": "lege_organica_dupa_expertiza",
+      "temeiuri_si_surse": [
+        "S19",
+        "S08"
+      ],
+      "verificari_legale_necesare": "Legea 395/2005 a suspendat serviciul militar obligatoriu pe timp de pace din 2007; constituție art.55; drepturi fundamentale.",
+      "faza_in_mandat": "Y1-Q1..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "capacitate instruită",
+        "cost/participant",
+        "retenție în rezervă"
+      ],
+      "riscuri_critice": "Cheltuieli mari, piața muncii afectată, indisponibilitate instructori.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "ECO-01",
+      "sector": "economie",
+      "titlu": "Reformă rapidă în 4 ani fără șoc fiscal",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Schimbare de direcție economică de 180 de grade într-un mandat.",
+      "design_implementabil": "Triaj după impact/cost/termene; fiecare măsură are notă de fundamentare, venituri identificate, analiză contrafactuală, calendar de achiziții, stop/go după trimestru; primele 100 de zile audit investiții și arierate.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S24",
+        "S25",
+        "S26"
+      ],
+      "verificari_legale_necesare": "Procedură de deficit excesiv UE; planificare multianuală; legi bugetare.",
+      "faza_in_mandat": "Y1-Q1..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "deficit % PIB",
+        "investiții publice efectiv executate",
+        "productivitate",
+        "sărăcie energetică"
+      ],
+      "riscuri_critice": "Promisiunea de simultan creșteri salarii, reduceri impozite și proiecte uriașe poate destabiliza bugetul.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "ECO-02",
+      "sector": "economie",
+      "titlu": "Salarii crescute etapizat",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Creșteri salariale și bonusuri la câteva luni.",
+      "design_implementabil": "Prioritate pentru funcții critice subfinanțate doar după evaluare; grile transparente, performanță și productivitate, nu bonusuri automate trimestriale; mecanisme anti-inflație; evaluare după semestru.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S25",
+        "S26"
+      ],
+      "verificari_legale_necesare": "Legea salarizării, constrângeri bugetare, negociere colectivă.",
+      "faza_in_mandat": "Y1-Q3..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "salariu real median",
+        "migrație personal critic",
+        "cost salarizare % venituri"
+      ],
+      "riscuri_critice": "Creșterea nominală fără productivitate poate alimenta inflația.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "ECO-03",
+      "sector": "economie",
+      "titlu": "Industrie și independență productivă",
+      "statut_origine": "discutie_anterioara_reconstituita",
+      "propunere_autor": "Fabrici noi, producție românească, tehnologii, centre date și cercetare.",
+      "design_implementabil": "Parcuri industriale lângă energie, apă și cale ferată, cu due diligence; atragerea capitalului privat, lanțuri furnizori, competențe STEM, producție electronică, servicii AI, agricultură procesată, audit de mediu; proiecte-pilot înainte de extindere.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S26"
+      ],
+      "verificari_legale_necesare": "Ajutor de stat UE, concurență, mediu, apă, autorizare urbanism.",
+      "faza_in_mandat": "Y1-Q2..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "investiții private mobilizate",
+        "valoare adăugată locală",
+        "locuri de muncă sustenabile"
+      ],
+      "riscuri_critice": "Mega-proiecte fără cerere fermă și fezabilitate.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "ECO-04",
+      "sector": "economie",
+      "titlu": "Anti-corupție și achiziții curate",
+      "statut_origine": "discutie_anterioara_reconstituita",
+      "propunere_autor": "Inspecții ferme instituții și companii care primesc bani publici.",
+      "design_implementabil": "Portal contracte cu preț unitar și subcontractanți, audit aleatoriu, indicatori de coluziune, protecția avertizorilor, mandate distincte între audit/anchetă/instanță.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S08"
+      ],
+      "verificari_legale_necesare": "Prezumpție de nevinovăție, date confidențiale, independența justiției.",
+      "faza_in_mandat": "Y1-Q1..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "% contracte cu date deschise",
+        "economii la achiziții",
+        "sesizări audit soluționate"
+      ],
+      "riscuri_critice": "Control politic selectiv sau intimidare.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "ENE-01",
+      "sector": "energie",
+      "titlu": "Curent accesibil și investiții în rețea",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Electricitatea trebuie să fie mai ieftină pentru populație.",
+      "design_implementabil": "Audit tarife și cost rețea, pierderi tehnice, racordare consumator/prosumator, licitații competitive; ajutoare țintite gospodării vulnerabile, investiții în stocare și interconectare; nu obligație de preț sub cost fără compensare.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S26"
+      ],
+      "verificari_legale_necesare": "Regulile pieței interne a energiei și ajutor de stat UE, finanțarea subvențiilor.",
+      "faza_in_mandat": "Y1-Q1..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "preț mediu real final/kWh",
+        "pierderi rețea",
+        "sărăcie energetică"
+      ],
+      "riscuri_critice": "Preț administrat arbitrar poate crea penurii/deficite.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "ENE-02",
+      "sector": "energie",
+      "titlu": "Nuclear modern",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Centrale nucleare suplimentare și autonomie energetică.",
+      "design_implementabil": "Analiză tehnico-economică nuclear nou/modernizare/SMR, finanțare pe durata de viață, securitate, reglementare CNCAN, management combustibil/deșeuri, apă de răcire, personal și calendar realist peste mandat.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [],
+      "verificari_legale_necesare": "Licențiere nucleară, evaluare impact transfrontalier, siguranță și contracte.",
+      "faza_in_mandat": "Y1-Q2..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "MW licențiați vs operaționali",
+        "cost nivelat comparativ",
+        "progres licențe"
+      ],
+      "riscuri_critice": "Centralele noi nu se construiesc integral garantat în 4 ani.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "CAPEX_de_lungă_durată_necalculat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "ENE-03",
+      "sector": "energie",
+      "titlu": "Eolian + fotovoltaic + stocare",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Zeci de parcuri fotovoltaice și multe eoliene.",
+      "design_implementabil": "Portofoliu de situri cu aviz mediu, conectare la rețea, lipsa conflictului cu habitate și teren agricol de mare valoare; licitații concurențiale, stocare și flexibilitate; aprobarea fiecărei investiții după randament.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [],
+      "verificari_legale_necesare": "Autorizare racordare, biodiversitate, achiziții/ajutor stat.",
+      "faza_in_mandat": "Y1-Q1..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "MW efectiv conectați",
+        "MWh stocare",
+        "cost producție",
+        "impact pe habitat"
+      ],
+      "riscuri_critice": "Capacitate instalată fără rețea nu reduce automat factura.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "TRN-01",
+      "sector": "transport",
+      "titlu": "Refacerea căii ferate",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Investim masiv în trenuri și reabilitarea completă a șinelor.",
+      "design_implementabil": "Inventariere coridoare transport marfă/pasageri, audit restricții viteză, prioritizare tronsoane la cost-beneficiu, electrificare, semnalizare, fiabilitate material rulant, contracte performanță și mentenanță.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [],
+      "verificari_legale_necesare": "Plan de transport, mediu, achiziții, autorizații.",
+      "faza_in_mandat": "Y1-Q1..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "km eliminați din restricții viteză",
+        "întârzieri/1000 tren-km",
+        "timp călătorie"
+      ],
+      "riscuri_critice": "Promisiune de refacere integrală în 4 ani nerealistă financiar.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "TRN-02",
+      "sector": "transport",
+      "titlu": "Drumuri noi și reparate fără peticeli superficiale",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Reconstrucție rutieră durabilă, la precizie înaltă.",
+      "design_implementabil": "Diagnostic structură rutieră, decizie frezare/reciclare/reconstrucție pe probe geotehnice, drenaj, garanții minime, probe carote, recepție independentă; întreținere preventivă în loc de reparații cosmetice.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [],
+      "verificari_legale_necesare": "Normative tehnice, achiziții, audit laboratoare.",
+      "faza_in_mandat": "Y1-Q1..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "durata de viață medie pe lot",
+        "defecte în garanție",
+        "cost total ciclu viață"
+      ],
+      "riscuri_critice": "Refacere integrală nejustificată unde întreținerea corectă este suficientă.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "AUTO-01",
+      "sector": "auto_fiscalitate",
+      "titlu": "Dreptul de a păstra mașini pe benzină",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "România să spună pas obligației tuturor cetățenilor să conducă numai electric.",
+      "design_implementabil": "Nu se propune interzicerea circulației automobilelor existente pe benzină/diesel; susținerea în instituțiile UE a neutralității tehnologice, e-fuels și predictibilitate; diferențiere între vânzare de vehicule NOI și folosirea celor EXISTENTE.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S23"
+      ],
+      "verificari_legale_necesare": "Regulamentul (UE) 2019/631 și 2023/851; propunere CE decembrie 2025 nu este automat lege adoptată.",
+      "faza_in_mandat": "Y1-Q1..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "cost mobilitate gospodărie",
+        "poluare urbană",
+        "înmatriculări noi vs parc existent"
+      ],
+      "riscuri_critice": "Promiterea unei derogări naționale unilaterale care contravine legislației UE.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "AUTO-02",
+      "sector": "auto_fiscalitate",
+      "titlu": "Benzină mai ieftină și rafinare internă",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Preț benzină redus; oricine vinde în țară să aibă rafinărie aici.",
+      "design_implementabil": "Analiza componentelor prețului (accize, TVA, marjă, preț țiței); combatere carteluri și distribuție opacă; stimulente deschise pentru investiții în rafinare/localizare, fără obligație generală de rafinărie pentru fiecare comerciant; studiu efect asupra prețului.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S26"
+      ],
+      "verificari_legale_necesare": "Piața internă UE, libertatea de stabilire, accize minime UE, concurență, ajutor de stat.",
+      "faza_in_mandat": "Y1-Q2..Y3-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "preț carburant net de taxe",
+        "capacitate rafinare economic viabilă",
+        "concurență piață"
+      ],
+      "riscuri_critice": "Obligația fiecărui comerciant de a deține rafinărie ar elimina concurența și poate crește prețul.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "AUTO-03",
+      "sector": "auto_fiscalitate",
+      "titlu": "Impozit auto propus 15%",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "15% pentru orice mașină după declararea prețului din factură/fiscal/dealer.",
+      "design_implementabil": "Analiza a două scenarii nehotărâte: A taxă unică de achiziție 15% din preț verificat; B cotă anuală 15% din valoarea depreciată — scenariul B potențial confiscatoriu; baza impozabilă, evaluări antifraudă pentru achiziții între persoane fizice, efect asupra veniturilor mici; NICIUN scenariu aprobat.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [],
+      "verificari_legale_necesare": "Dublă impunere, proporționalitate, fiscalitate UE, impozite locale, protecția proprietății.",
+      "faza_in_mandat": "Y1-Q3..Y2-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "încasări nete estimate",
+        "cost median proprietate auto",
+        "fraude constatate"
+      ],
+      "riscuri_critice": "15% anual din valoare ar fi extrem de costisitor; factura poate fi manipulată.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P2",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "AUTO-04",
+      "sector": "auto_fiscalitate",
+      "titlu": "RCA accesibil la mașini uzuale",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Maxim 2000–2500 lei pe an pentru mașini de rând/middle/upper-middle.",
+      "design_implementabil": "Obiectiv politic de accesibilitate, nu plafon universal legal impus fără calcul; studiu RCA pe clasă risc și bonus-malus, fraudă, cost reparații, despăgubiri; polițe competitive, mecanisme de protecție șoferi cu risc mic și venit mic.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [],
+      "verificari_legale_necesare": "Solvabilitate asigurători, reguli UE RCA, concurență, actuariat.",
+      "faza_in_mandat": "Y1-Q3..Y3-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "primă mediană pentru grupe definite",
+        "rata daunelor",
+        "falimente de asigurători"
+      ],
+      "riscuri_critice": "Plafon insuficient finanțat poate produce insolvențe și victime necompensate.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "AUTO-05",
+      "sector": "auto_fiscalitate",
+      "titlu": "Supercar modificat, RCA distinct",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "5000 lei pentru 6 luni / 10000 lei anual la supercar modificat.",
+      "design_implementabil": "Propunere de referință autor; definire obiectivă putere, valoare, istoricul daunelor și modificărilor; calcul actuarial, deductibilă posibilă, verificare RAR; tariful nu poate fi fix indiferent de risc.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [],
+      "verificari_legale_necesare": "RCA, omologare, solvabilitate, drepturi terți păgubiți.",
+      "faza_in_mandat": "Y2-Q1..Y3-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "rata daunei pe segment",
+        "grad de conformitate RAR"
+      ],
+      "riscuri_critice": "Preț sub riscul real transferă costurile altor șoferi.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "AUTO-06",
+      "sector": "auto_fiscalitate",
+      "titlu": "Mașini modificate legal pe drumuri",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Inspirat de cultura tuning japonez, să circuli cu mașini foarte modificate.",
+      "design_implementabil": "Omologare individuală clară și predictibilă RAR pentru frâne, direcție, structură, emisii și zgomot; traseu administrativ digital, probe dinamice, inspecții periodice; acceptare transformări performante sigure, nu a prototipurilor neomologate.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [],
+      "verificari_legale_necesare": "Reglementări UE omologare vehicule, standarde RAR și siguranța publică.",
+      "faza_in_mandat": "Y1-Q4..Y3-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "timp omologare",
+        "modificări legalizate",
+        "accidente din defecte tehnice"
+      ],
+      "riscuri_critice": "Nu orice modificare permisă în alt stat este permisă automat în România.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "BORD-01",
+      "sector": "frontiere",
+      "titlu": "Vize și control migrator",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "În România să intre doar cine are viză; ieșire din Schengen temporar.",
+      "design_implementabil": "Separarea vizitatorilor non-UE ce au nevoie legal de viză, cetățenilor UE cu drept de liberă circulație și persoanelor scutite prin tratate; consolidare controale frontiere externe, documentare, combate trafic și ședere ilegală; analiză juridică de schimbare Schengen vs controale temporare legale strict necesare.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S21",
+        "S22",
+        "S08"
+      ],
+      "verificari_legale_necesare": "Libera circulație UE, Schengen, acquis, tratate și proporționalitate; cerința de viză pentru toți cetățenii UE nu este permisă.",
+      "faza_in_mandat": "Y1-Q1..Y2-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "infracțiuni transfrontaliere depistate",
+        "timp frontieră",
+        "cost logistic"
+      ],
+      "riscuri_critice": "Ieșirea unilaterală simplificată este presupunere nefondată; prejudiciu transport/comerț.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "FOR-01",
+      "sector": "paduri",
+      "titlu": "Împădurire și regenerare",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Pădurile să primească investiții imense; plantare masivă.",
+      "design_implementabil": "Plantări numai pe suprafețe adecvate ecologic cu specii autohtone, retenție de apă, coridoare, regenerare naturală unde e mai bună; plăți de întreținere 5 ani și rată de supraviețuire, nu numai număr de puieți puși.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S20"
+      ],
+      "verificari_legale_necesare": "Cod Silvic Legea 331/2024, Natura 2000, biodiversitate.",
+      "faza_in_mandat": "Y1-Q2..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "hectare cu regenerare reușită",
+        "supraviețuire puieți la 3 ani",
+        "biodiversitate"
+      ],
+      "riscuri_critice": "Plantarea pe habitate naturale valoroase poate face rău.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "FOR-02",
+      "sector": "paduri",
+      "titlu": "Control silvic și trasabilitate",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Verificări până în cele mai mici detalii, inclusiv acte.",
+      "design_implementabil": "Audit independent riscuri, inventar satelitar/LiDAR, trasabilitate lemn, sesizări protejate, controale inopinate când există temei; verificarea averilor doar prin instituții competente, cu acces legal; sesizări la parchet cu probe.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S20",
+        "S08"
+      ],
+      "verificari_legale_necesare": "Dreptul la viață privată, prezumție nevinovăție, competența ANI/autoritate silvică.",
+      "faza_in_mandat": "Y1-Q1..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "volum tăieri ilegale confirmate",
+        "inconsistențe documentare remediate",
+        "sancțiuni definitive"
+      ],
+      "riscuri_critice": "Vânătoare politică sau percheziții fără mandat.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "FOR-03",
+      "sector": "paduri",
+      "titlu": "Arbori seculari protejați",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Arborii ce pot trăi sute sau mii ani să nu fie tăiați niciodată.",
+      "design_implementabil": "Registru arbori remarcabili și seculari cu geolocalizare administrată prudent, zone-tampon, protecție față de lucrări; derogări numai pentru pericol imediat de prăbușire demonstrat și reexpertizare independentă.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S20"
+      ],
+      "verificari_legale_necesare": "Cod silvic, protecția monumentelor naturii, drept proprietate și siguranță.",
+      "faza_in_mandat": "Y1-Q2..Y3-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "arbori clasificați",
+        "arbori protejați salvați"
+      ],
+      "riscuri_critice": "Regula absolută poate crea risc imediat pentru viața oamenilor.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "FOR-04",
+      "sector": "paduri",
+      "titlu": "Exploatare forestieră bazată pe ecosistem",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Arborii vechi pot fi uneori tăiați pentru regenerare.",
+      "design_implementabil": "Nu vârsta singură decide: amenajament silvic, biodiversitate, arbori-habitat, retenție carbon, funcții de protecție, specia; tăieri numai unde justifică silvicultura durabilă; păduri primare/bătrâne conservate.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S20"
+      ],
+      "verificari_legale_necesare": "Cod silvic, directive habitate și păsări, limite tăieri.",
+      "faza_in_mandat": "Y1-Q2..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "proporție pădure matură conservată",
+        "regenerare după exploatare"
+      ],
+      "riscuri_critice": "Tăierea sistematică a pădurilor mature ar degrada habitate valoroase.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "FOR-05",
+      "sector": "paduri",
+      "titlu": "Beneficiari ajutor social în plantări",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Beneficiarii de ajutor social să ajute la replantare.",
+      "design_implementabil": "Program public REMUNERAT și voluntariat opțional, cu transport/equipament/protecție; muncă în folos comunității doar în condițiile legii pentru persoanele apte, cu excepții pentru dizabilitate, îngrijire copii și alte situații, fără sancțiuni arbitrare.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S20",
+        "S08"
+      ],
+      "verificari_legale_necesare": "Legi venit minim incluziune, dreptul muncii, interzicerea muncii forțate.",
+      "faza_in_mandat": "Y1-Q3..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "participanți voluntari/legali",
+        "hectare întreținute",
+        "accidente muncă"
+      ],
+      "riscuri_critice": "Risc de muncă forțată, exploatare și lipsă competență silvică.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "FOR-06",
+      "sector": "paduri",
+      "titlu": "Camere și senzori păduri tinere",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Camere în pădurile noi și cele plantate în ultimii 20 de ani.",
+      "design_implementabil": "Senzori anti-incendiu și sateliți prioritar; camere doar în puncte de acces unde justificarea legală există; cost ciclu viață și întreținere, acces restrâns; nu filmare continuă a tuturor persoanelor în toate pădurile.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S20",
+        "S08"
+      ],
+      "verificari_legale_necesare": "GDPR, fond forestier, protecție date, mediu.",
+      "faza_in_mandat": "Y1-Q4..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "alertare timpurie incendiu",
+        "furt confirmat detectat",
+        "cost/ha"
+      ],
+      "riscuri_critice": "Supraveghere generalizată nerealistă și invazivă.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P1",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "GOV-01",
+      "sector": "institutii",
+      "titlu": "Reformă constituțională și stat de drept",
+      "statut_origine": "propus_de_autor",
+      "propunere_autor": "Constituție pentru cetățeni, nu pentru interesul celor la putere.",
+      "design_implementabil": "Audit articol cu articol al Constituției 2003; fișe amendament cu problemă, text curent, text propus, efect; consultare cetățeni, avize CCR, respectarea art.150–152 inclusiv limite nerevizuibile; referendum dacă se aprobă procedural.",
+      "instrument_juridic_probabil": "revizuire_constitutionala_daca_justificata",
+      "temeiuri_si_surse": [
+        "S08"
+      ],
+      "verificari_legale_necesare": "Art. 150–152; pluralism și independență a justiției nerevizuibile.",
+      "faza_in_mandat": "Y1-Q1..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "număr articole evaluate",
+        "participare consultare",
+        "avize publicate"
+      ],
+      "riscuri_critice": "Revizuirea constituțională nu poate suspenda drepturi sau concentra puterea.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "GOV-02",
+      "sector": "institutii",
+      "titlu": "Asociație civică și cercetare",
+      "statut_origine": "discutie_anterioara_reconstituita",
+      "propunere_autor": "Victor autorul proiectului; Cătălin consilier/secretar, Dragoș sprijin înființare.",
+      "design_implementabil": "Pregătire statut ONG civic non-profit, dovadă sediu prin acte juridice de folosință (nu necesară proprietatea unui teren), nume verificat, patrimoniu inițial conform legii la momentul depunerii, cont bancar, contabilitate și protecție date; separare clară ONG–partid dacă există activități politice.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [],
+      "verificari_legale_necesare": "OG 26/2000 de verificat la dosar cu avocat/notar; atribuții reale și reprezentare legală.",
+      "faza_in_mandat": "Y1-Q1..Y1-Q3",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "asociație constituită legal",
+        "rapoarte financiare publicate"
+      ],
+      "riscuri_critice": "Conflict interese, structură nedocumentată.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    },
+    {
+      "id": "GOV-03",
+      "sector": "institutii",
+      "titlu": "Respect pentru drepturi și independența justiției",
+      "statut_origine": "concept_de_buna_guvernare",
+      "propunere_autor": "Mecanisme ferme de control și legi dure.",
+      "design_implementabil": "Niciun control politic asupra soluțiilor din dosare; comisii parlamentare transparent auditate; CSM/instanțe independente, proceduri disciplinare corecte; monitor extern drepturi omului.",
+      "instrument_juridic_probabil": "lege_ordin",
+      "temeiuri_si_surse": [
+        "S08"
+      ],
+      "verificari_legale_necesare": "Constituție art.1,16,21,23,124,125,152.",
+      "faza_in_mandat": "Y1-Q1..Y4-Q4",
+      "indicatori_propuși_fără_baseline_inventat": [
+        "încredere măsurată reprezentativ",
+        "durată dosare",
+        "număr audituri soluționate"
+      ],
+      "riscuri_critice": "Concentrarea puterii slăbește exact reforma declarată.",
+      "masuri_de_garantare": "Drepturi fundamentale, evaluare de impact, control judiciar/administrativ independent. ",
+      "prioritate": "P0",
+      "buget": "estimare_de_realizat",
+      "responsabili_propuși": [
+        "ministerul_de_resort",
+        "parlament",
+        "autoritate_locală_după_caz"
+      ],
+      "stare": "concept_neaprobat",
+      "conditie_decizie": "consultare_publica + analiza_juridica + evaluare_cost-beneficiu + finanțare + vot_legislativ",
+      "estime_financiare_de_colectat": {
+        "CAPEX_LEI": null,
+        "OPEX_anual_LEI": null,
+        "venituri_noi_LEI": null,
+        "finantare_aprobata_LEI": null,
+        "motiv_lipsa": "nu există deviz, bază statistică și decizie bugetară pentru această măsură"
+      },
+      "definitie_KPI": "Indicatorii trebuie legați de instituție, metodă de colectare, an de referință și țintă numerică stabilită doar pe baza datelor.",
+      "test_responsabilitate": "Responsabilul final și termenul de evaluare se desemnează formal înainte de implementare."
+    }
+  ],
+  "laws": [
+    {
+      "id": "L001",
+      "titlu": "Pachet protecție victime și ordine de protecție",
+      "obiect": "Modificări graduale Legea 217/2003, 26/2024 și norme secundare",
+      "articole_schita": [
+        "Art.1 Platformă interoperabilă strict accesată pentru sesizări și ordine.",
+        "Art.2 Evaluare standard de risc și intervenție 24/7.",
+        "Art.3 Protecția domiciliului și datele victimei.",
+        "Art.4 Audit anual al eșecurilor de intervenție.",
+        "Art.5 Buget minim motivat pentru servicii sociale."
+      ],
+      "analiza_necesara": "Compatibilitate Legea 36/2026, atribuții instituționale, finanțare"
+    },
+    {
+      "id": "L002",
+      "titlu": "Pachet agravante infracțiuni de violență gravă",
+      "obiect": "Amendamente Cod penal numai pentru fapte precis definite",
+      "articole_schita": [
+        "Art.1 Circumstanțe agravante pentru violență repetată gravă și încălcări demonstrate.",
+        "Art.2 Protecție martori și expertize.",
+        "Art.3 Regim de individualizare și drept la apărare."
+      ],
+      "analiza_necesara": "Proporționalitate, compatibilitate Cod penal, jurisprudență CCR/CEDO"
+    },
+    {
+      "id": "L003",
+      "titlu": "Legea examinării rutiere în trei etape",
+      "obiect": "Actualizare OUG 195/2002 și norme permise",
+      "articole_schita": [
+        "Art.1 Probe diferențiate de risc și conducere.",
+        "Art.2 Repartizare aleatorie a trei examinatori diferiți.",
+        "Art.3 Examinare adaptată pentru dizabilități și acces rural.",
+        "Art.4 Registru auditabil, termene contestații.",
+        "Art.5 Pilot urmat de evaluare independentă."
+      ],
+      "analiza_necesara": "Costuri examene, personal, protecția datelor, oportunitatea numărului exact de examinări"
+    },
+    {
+      "id": "L004",
+      "titlu": "Legea cauzalității și sancțiunilor pentru ucidere din culpă rutieră",
+      "obiect": "Criterii de expertiză și eventuale agravante de vinovăție",
+      "articole_schita": [
+        "Art.1 Expertiză rutieră standardizată în accidente fatale.",
+        "Art.2 Evaluare viteză în raport cu starea meteo și ora, cu probarea cauzalității.",
+        "Art.3 Circumstanțe de conduită periculoasă dovedite.",
+        "Art.4 Individualizarea pedepsei de către instanță; nu maxim automat."
+      ],
+      "analiza_necesara": "Corelare cu Legea 213/2023; art.192,335,336 CP; ne-retroactivitate"
+    },
+    {
+      "id": "L005",
+      "titlu": "Legea bunăstării și protecției severe a animalelor",
+      "obiect": "Amendare Legea 205/2004, personal și adăposturi",
+      "articole_schita": [
+        "Art.1 Certificarea îngrijitorilor și standarde minime adăpost.",
+        "Art.2 Formă agravată de cruzime intenționată în poziție de custodie; propunere autor 5–13 ani.",
+        "Art.3 Tortură calificată și ucidere cu cruzime sistematică; propunere autor 8–18 ani.",
+        "Art.4 Gradație distinctă pentru abandon, neglijență, rănire și fapte medicale legitime.",
+        "Art.5 Interdicție de deținere animale și recuperare cheltuieli conform hotărârii."
+      ],
+      "analiza_necesara": "Test de proporționalitate, definiții penale fără ambiguitate, comparație cu Codul penal"
+    },
+    {
+      "id": "L006",
+      "titlu": "Pachet de siguranță și sănătate în școli",
+      "obiect": "Modificare norme educație, bugete și metodologii",
+      "articole_schita": [
+        "Art.1 Consumabile igienă menstruală și acces la dușuri private în licee, cu calendar realist.",
+        "Art.2 Protocoale pentru alergeni și diabet.",
+        "Art.3 Instruire anuală personal cantină și cabinet.",
+        "Art.4 Regulament disciplină și prevenirea abuzului.",
+        "Art.5 Camere exclusiv conform normelor de proporționalitate și protecție minorilor."
+      ],
+      "analiza_necesara": "Legea 198/2023, GDPR, ordin sănătate/educație, investiții în clădiri"
+    },
+    {
+      "id": "L007",
+      "titlu": "Pachet fiscal și auto responsabil",
+      "obiect": "Analiză înainte de orice taxă 15% sau plafon RCA",
+      "articole_schita": [
+        "Art.1 Studiu comparativ taxă unică versus impozit anual 15%.",
+        "Art.2 Raport actuarial RCA pe clase de risc.",
+        "Art.3 Procedură simplificată de omologare modificări sigure.",
+        "Art.4 Transparență componente preț combustibil."
+      ],
+      "analiza_necesara": "Nu se redactează cote finale fără evaluare de impact și baze de calcul."
+    },
+    {
+      "id": "L008",
+      "titlu": "Pachet silvic pentru păduri durabile",
+      "obiect": "Aplicare și completare Cod Silvic 2024",
+      "articole_schita": [
+        "Art.1 Registru arbori seculari.",
+        "Art.2 Monitorizare satelitară și trasabilitate, acces cu temei.",
+        "Art.3 Regenerare măsurată la supraviețuire 3/5 ani.",
+        "Art.4 Program remunerat de împădurire și siguranță în muncă."
+      ],
+      "analiza_necesara": "Compatibilitate habitate UE, proprietate, norme forestiere"
+    },
+    {
+      "id": "L009",
+      "titlu": "Pachet statut serviciu național de apărare",
+      "obiect": "Posibilă schimbare Legea 395/2005",
+      "articole_schita": [
+        "Art.1 Studiu de fezabilitate instituțională și financiară.",
+        "Art.2 Program pilot voluntar.",
+        "Art.3 Dacă ulterior se introduce obligație: criterii egale și alternative civile.",
+        "Art.4 Protecția drepturilor, sănătății și carierei."
+      ],
+      "analiza_necesara": "Legi militare, constituție, obiecție de conștiință, buget"
+    },
+    {
+      "id": "L010",
+      "titlu": "Pachet transparență și performanță bugetară",
+      "obiect": "Reguli audit, licitații și raportare publică",
+      "articole_schita": [
+        "Art.1 Registru unic proiecte investiții.",
+        "Art.2 Audit trimestrial după cost și rezultate.",
+        "Art.3 Contracte cu garanție și inspecție independentă.",
+        "Art.4 Suspendare motivată a finanțării proiectelor neperformante."
+      ],
+      "analiza_necesara": "Drept administrativ, achiziții publice, protecția datelor"
+    }
+  ],
+  "quarters": [
+    {
+      "id": "Y1-Q1",
+      "luni_mandat": [
+        1,
+        3
+      ],
+      "livrabile_minime": [
+        "audit juridic și fiscal",
+        "date de referință pentru violență și trafic",
+        "mapare școli/adăposturi/cabinete"
+      ],
+      "cost_estimat_LEI": null,
+      "surse_finantare_confirmate": [],
+      "criteriu_trecere": "Livrabile verificate, consultare legală și cost aprobat, după caz",
+      "audit_public": true
+    },
+    {
+      "id": "Y1-Q2",
+      "luni_mandat": [
+        4,
+        6
+      ],
+      "livrabile_minime": [
+        "primele proiecte pilota și proiecte de lege justiție",
+        "analiză riscuri forestiere",
+        "plan indicatori publici"
+      ],
+      "cost_estimat_LEI": null,
+      "surse_finantare_confirmate": [],
+      "criteriu_trecere": "Livrabile verificate, consultare legală și cost aprobat, după caz",
+      "audit_public": true
+    },
+    {
+      "id": "Y1-Q3",
+      "luni_mandat": [
+        7,
+        9
+      ],
+      "livrabile_minime": [
+        "pilot 3 probe condus",
+        "achiziții igienă menstruală/alergeni",
+        "licitații inspecții drumuri"
+      ],
+      "cost_estimat_LEI": null,
+      "surse_finantare_confirmate": [],
+      "criteriu_trecere": "Livrabile verificate, consultare legală și cost aprobat, după caz",
+      "audit_public": true
+    },
+    {
+      "id": "Y1-Q4",
+      "luni_mandat": [
+        10,
+        12
+      ],
+      "livrabile_minime": [
+        "evaluare prim an",
+        "programe curricular civice",
+        "plan energie rețea"
+      ],
+      "cost_estimat_LEI": null,
+      "surse_finantare_confirmate": [],
+      "criteriu_trecere": "Livrabile verificate, consultare legală și cost aprobat, după caz",
+      "audit_public": true
+    },
+    {
+      "id": "Y2-Q1",
+      "luni_mandat": [
+        13,
+        15
+      ],
+      "livrabile_minime": [
+        "amendamente penale supuse avizelor",
+        "extindere formare îngrijitori animale",
+        "primele contracte mentenanță trenuri"
+      ],
+      "cost_estimat_LEI": null,
+      "surse_finantare_confirmate": [],
+      "criteriu_trecere": "Livrabile verificate, consultare legală și cost aprobat, după caz",
+      "audit_public": true
+    },
+    {
+      "id": "Y2-Q2",
+      "luni_mandat": [
+        16,
+        18
+      ],
+      "livrabile_minime": [
+        "pilot cabinete, dotări și suport diabet",
+        "raport semestrial deficit vs obiective",
+        "test omologare tuning sigur"
+      ],
+      "cost_estimat_LEI": null,
+      "surse_finantare_confirmate": [],
+      "criteriu_trecere": "Livrabile verificate, consultare legală și cost aprobat, după caz",
+      "audit_public": true
+    },
+    {
+      "id": "Y2-Q3",
+      "luni_mandat": [
+        19,
+        21
+      ],
+      "livrabile_minime": [
+        "recalibrare RCA din date actuariale",
+        "audit asociație și finanțări",
+        "actualizare inventar arbori seculari"
+      ],
+      "cost_estimat_LEI": null,
+      "surse_finantare_confirmate": [],
+      "criteriu_trecere": "Livrabile verificate, consultare legală și cost aprobat, după caz",
+      "audit_public": true
+    },
+    {
+      "id": "Y2-Q4",
+      "luni_mandat": [
+        22,
+        24
+      ],
+      "livrabile_minime": [
+        "raport public anul doi",
+        "corecții programe slabe",
+        "consultații publice asupra Constituției"
+      ],
+      "cost_estimat_LEI": null,
+      "surse_finantare_confirmate": [],
+      "criteriu_trecere": "Livrabile verificate, consultare legală și cost aprobat, după caz",
+      "audit_public": true
+    },
+    {
+      "id": "Y3-Q1",
+      "luni_mandat": [
+        25,
+        27
+      ],
+      "livrabile_minime": [
+        "extindere programe cu impact demonstrat",
+        "modernizare tronsoane prioritare",
+        "evaluare situație frontiere"
+      ],
+      "cost_estimat_LEI": null,
+      "surse_finantare_confirmate": [],
+      "criteriu_trecere": "Livrabile verificate, consultare legală și cost aprobat, după caz",
+      "audit_public": true
+    },
+    {
+      "id": "Y3-Q2",
+      "luni_mandat": [
+        28,
+        30
+      ],
+      "livrabile_minime": [
+        "monitorizare preț energie/combustibil și concurență",
+        "audit costuri salarii",
+        "îmbunătățire intervenție la violență"
+      ],
+      "cost_estimat_LEI": null,
+      "surse_finantare_confirmate": [],
+      "criteriu_trecere": "Livrabile verificate, consultare legală și cost aprobat, după caz",
+      "audit_public": true
+    },
+    {
+      "id": "Y3-Q3",
+      "luni_mandat": [
+        31,
+        33
+      ],
+      "livrabile_minime": [
+        "audit sever al accidentelor și cauzalității",
+        "evaluare progrese împăduriri",
+        "scalare opțională servicii apărare"
+      ],
+      "cost_estimat_LEI": null,
+      "surse_finantare_confirmate": [],
+      "criteriu_trecere": "Livrabile verificate, consultare legală și cost aprobat, după caz",
+      "audit_public": true
+    },
+    {
+      "id": "Y3-Q4",
+      "luni_mandat": [
+        34,
+        36
+      ],
+      "livrabile_minime": [
+        "raport public anul trei",
+        "consultare deschisă asociație",
+        "actualizare măsuri cu probleme de date"
+      ],
+      "cost_estimat_LEI": null,
+      "surse_finantare_confirmate": [],
+      "criteriu_trecere": "Livrabile verificate, consultare legală și cost aprobat, după caz",
+      "audit_public": true
+    },
+    {
+      "id": "Y4-Q1",
+      "luni_mandat": [
+        37,
+        39
+      ],
+      "livrabile_minime": [
+        "selectare proiecte termen lung finanțabile",
+        "contracte de continuitate cabinete/adăposturi",
+        "pregătirea bilanțului 4 ani"
+      ],
+      "cost_estimat_LEI": null,
+      "surse_finantare_confirmate": [],
+      "criteriu_trecere": "Livrabile verificate, consultare legală și cost aprobat, după caz",
+      "audit_public": true
+    },
+    {
+      "id": "Y4-Q2",
+      "luni_mandat": [
+        40,
+        42
+      ],
+      "livrabile_minime": [
+        "audit independent justiție/școli/drumuri",
+        "raport date infracțiuni împotriva animalelor",
+        "comparație trenuri și transport"
+      ],
+      "cost_estimat_LEI": null,
+      "surse_finantare_confirmate": [],
+      "criteriu_trecere": "Livrabile verificate, consultare legală și cost aprobat, după caz",
+      "audit_public": true
+    },
+    {
+      "id": "Y4-Q3",
+      "luni_mandat": [
+        43,
+        45
+      ],
+      "livrabile_minime": [
+        "evaluare cost-beneficiu finală",
+        "expertize de constituționalitate finale unde relevant",
+        "plan buget pentru următorii ani"
+      ],
+      "cost_estimat_LEI": null,
+      "surse_finantare_confirmate": [],
+      "criteriu_trecere": "Livrabile verificate, consultare legală și cost aprobat, după caz",
+      "audit_public": true
+    },
+    {
+      "id": "Y4-Q4",
+      "luni_mandat": [
+        46,
+        48
+      ],
+      "livrabile_minime": [
+        "bilanț public integral",
+        "consultare cetățenească privind continuarea reformelor",
+        "predarea proiectelor și bazelor de date în custodie transparentă"
+      ],
+      "cost_estimat_LEI": null,
+      "surse_finantare_confirmate": [],
+      "criteriu_trecere": "Livrabile verificate, consultare legală și cost aprobat, după caz",
+      "audit_public": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "titlu": "Portal Legislativ — Constituția 1866",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/26844",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S02",
+      "titlu": "Portal Legislativ — Constituția 1923",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/15014",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S03",
+      "titlu": "Portal Legislativ — Constituția 1938",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/14930",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S04",
+      "titlu": "Portal Legislativ — Constituția 1948",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/14931",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S05",
+      "titlu": "Portal Legislativ — Constituția 1952",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/14933",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S06",
+      "titlu": "Portal Legislativ — Constituția 1965 republicată",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/14938?isFormaDeBaza=True&rep=True",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S07",
+      "titlu": "Portal Legislativ — Constituția 1991 originală",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/1413",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S08",
+      "titlu": "Portal Legislativ — Constituția 1991 revizuită 2003",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/47355",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S09",
+      "titlu": "Portal Legislativ — Statutul dezvoltător 1864",
+      "url": "https://legislatie.just.ro/public/DetaliiDocument/19654",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S10",
+      "titlu": "Portal Legislativ — Legea 217/2003 violența domestică actualizată",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/156613",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S11",
+      "titlu": "Portal Legislativ — Legea 26/2024 ordinul de protecție",
+      "url": "https://legislatie.just.ro/public/DetaliiDocument/279559",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S12",
+      "titlu": "Portal Legislativ — Legea 36/2026 actualizare protecție",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/308438",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S13",
+      "titlu": "Portal Legislativ — Codul penal",
+      "url": "https://legislatie.just.ro/public/detaliidocument/109855",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S14",
+      "titlu": "Portal Legislativ — Legea 205/2004 protecția animalelor",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/52646",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S15",
+      "titlu": "Portal Legislativ — Legea 213/2023 (Anastasia)",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/271991",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S16",
+      "titlu": "Portal Legislativ — OUG 195/2002 circulația pe drumuri",
+      "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G1Y0WDCA1N7PXE11WU0U3R6O299",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S17",
+      "titlu": "Portal Legislativ — Legea 198/2023 învățământ preuniversitar",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/271896",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S18",
+      "titlu": "Portal Legislativ — Procedură prevenire violență școlară 2023",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/274670",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S19",
+      "titlu": "Portal Legislativ — Legea 395/2005 serviciu militar voluntar",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/67092",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S20",
+      "titlu": "Portal Legislativ — Codul silvic Legea 331/2024",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/296115",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S21",
+      "titlu": "Consiliul UE — finalizare aderare Schengen",
+      "url": "https://www.consilium.europa.eu/ro/press/press-releases/2024/12/12/schengen-council-decides-to-lift-land-border-controls-with-bulgaria-and-romania/",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S22",
+      "titlu": "Comisia Europeană — controale Schengen temporare",
+      "url": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area/temporary-reintroduction-border-control_en",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S23",
+      "titlu": "Comisia Europeană — norme CO2 auto și propunerea Decembrie 2025",
+      "url": "https://climate.ec.europa.eu/areas-action/transport-decarbonisation/road-transport/cars-and-vans_en",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S24",
+      "titlu": "Comisia Europeană — procedura deficit excesiv România",
+      "url": "https://economy-finance.ec.europa.eu/economic-governance-framework/stability-and-growth-pact/corrective-arm-excessive-deficit-procedure/excessive-deficit-procedures-overview/romania_en",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S25",
+      "titlu": "Comisia Europeană — prognoza România mai 2026",
+      "url": "https://economy-finance.ec.europa.eu/economic-surveillance-eu-member-states/country-pages-including-country-reports/romania/economic-forecast-romania_en",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S26",
+      "titlu": "Consiliul UE — recomandări economice România 2026",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026H03936",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S29",
+      "titlu": "Portal Legislativ — Legea 138/2022 întărirea protecției animalelor",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/255446",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S30",
+      "titlu": "Portal Legislativ — Legea 36/2026, ordin de protecție",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/308438",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Link primar sau presă; consultați forma actualizată la momentul utilizării."
+    },
+    {
+      "id": "S31",
+      "titlu": "Portal Legislativ — Ordin 3781/2025 supraveghere școli și procedură",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/297017",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Legea permite sisteme în condiții specifice, cu consultare și reguli GDPR, nu impune camere necondiționat în toate clasele."
+    },
+    {
+      "id": "S32",
+      "titlu": "Portal Legislativ — procedură supraveghere audio-video 2025",
+      "url": "https://legislatie.just.ro/Public/FormaPrintabila/00000G3DIV7P3LELPV63LGDCXTVJKQIG",
+      "consultat_referinta": "2026-10-25",
+      "nota": "Conține și condiții de utilizare, spații admise și retenție obișnuită de 30 zile."
+    }
+  ],
+  "constitutions": [
+    {
+      "id": "C00",
+      "an": "1831–1832",
+      "titlu": "Regulamentele Organice",
+      "categorie": "preconstituțional",
+      "regim": "Principatele Române",
+      "analiza": "Administrație, fiscalitate, instituții moderne timpurii; nu o constituție democratică în sens contemporan.",
+      "lectie_pentru_blueprint": "etapă de organizare administrativă",
+      "surse": [],
+      "url_text_integral": null,
+      "text_integral_inclus": false
+    },
+    {
+      "id": "C01",
+      "an": "1858",
+      "titlu": "Convenția de la Paris",
+      "categorie": "act cu rol constituțional",
+      "regim": "Principatele Unite",
+      "analiza": "Configura instituțiile politice ale principatelor înaintea reformelor lui Cuza.",
+      "lectie_pentru_blueprint": "unire și reprezentare",
+      "surse": [
+        "S09"
+      ],
+      "url_text_integral": null,
+      "text_integral_inclus": false
+    },
+    {
+      "id": "C02",
+      "an": "1864",
+      "titlu": "Statutul dezvoltător al Convenției de la Paris",
+      "categorie": "act cu rol constituțional",
+      "regim": "Principatele Unite",
+      "analiza": "Consolidează puterea domnului; introduce corp ponderator; modernizează arhitectura instituțiilor.",
+      "lectie_pentru_blueprint": "putere executivă și instituții",
+      "surse": [
+        "S09"
+      ],
+      "url_text_integral": "https://legislatie.just.ro/public/DetaliiDocument/19654",
+      "text_integral_inclus": false
+    },
+    {
+      "id": "C03",
+      "an": "1866",
+      "titlu": "Constituția din 1866",
+      "categorie": "constituție",
+      "regim": "monarhie constituțională",
+      "analiza": "Monarhie constituțională, separație instituțională; participare politică limitată și norme de epocă astăzi incompatibile cu egalitatea.",
+      "lectie_pentru_blueprint": "controlul puterii și libertăți",
+      "surse": [
+        "S01"
+      ],
+      "url_text_integral": "https://legislatie.just.ro/Public/DetaliiDocument/26844",
+      "text_integral_inclus": false
+    },
+    {
+      "id": "C04",
+      "an": "1923",
+      "titlu": "Constituția din 1923",
+      "categorie": "constituție",
+      "regim": "monarhie constituțională",
+      "analiza": "Organizează statul după Marea Unire, dezvoltă drepturi și instituții; nu echivalează cu egalitatea modernă de gen.",
+      "lectie_pentru_blueprint": "drepturi, unitate, instituții",
+      "surse": [
+        "S02"
+      ],
+      "url_text_integral": "https://legislatie.just.ro/Public/DetaliiDocument/15014",
+      "text_integral_inclus": false
+    },
+    {
+      "id": "C05",
+      "an": "1938",
+      "titlu": "Constituția din 1938",
+      "categorie": "constituție",
+      "regim": "monarhie autoritară",
+      "analiza": "Concentrarea autorității monarhice și restrângerea pluralismului politic; reper istoric de EVITAT în proiectul democratic.",
+      "lectie_pentru_blueprint": "risc de concentrare a puterii",
+      "surse": [
+        "S03"
+      ],
+      "url_text_integral": "https://legislatie.just.ro/Public/DetaliiDocument/14930",
+      "text_integral_inclus": false
+    },
+    {
+      "id": "C06",
+      "an": "1948",
+      "titlu": "Constituția din 1948",
+      "categorie": "constituție",
+      "regim": "republică populară comunistă",
+      "analiza": "Instituționalizare a regimului comunist și reconfigurare a economiei și puterii politice.",
+      "lectie_pentru_blueprint": "risc de control politic al instituțiilor",
+      "surse": [
+        "S04"
+      ],
+      "url_text_integral": "https://legislatie.just.ro/Public/DetaliiDocument/14931",
+      "text_integral_inclus": false
+    },
+    {
+      "id": "C07",
+      "an": "1952",
+      "titlu": "Constituția din 1952",
+      "categorie": "constituție",
+      "regim": "republică populară comunistă",
+      "analiza": "Model ideologizat de stat socialist și economie planificată.",
+      "lectie_pentru_blueprint": "drepturi formale versus practică",
+      "surse": [
+        "S05"
+      ],
+      "url_text_integral": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/14933",
+      "text_integral_inclus": false
+    },
+    {
+      "id": "C08",
+      "an": "1965",
+      "titlu": "Constituția din 1965",
+      "categorie": "constituție",
+      "regim": "republică socialistă",
+      "analiza": "Consacra rolul conducător al PCR; republicări și modificări ulterioare inclusiv în 1974 și 1986.",
+      "lectie_pentru_blueprint": "interzicerea partidului-stat",
+      "surse": [
+        "S06"
+      ],
+      "url_text_integral": "https://legislatie.just.ro/Public/DetaliiDocument/14938?isFormaDeBaza=True&rep=True",
+      "text_integral_inclus": false
+    },
+    {
+      "id": "C09",
+      "an": "1991",
+      "titlu": "Constituția din 1991 inițială",
+      "categorie": "constituție",
+      "regim": "republică democratică",
+      "analiza": "Stat de drept, drepturi și libertăți, pluralism, separarea puterilor, garanții de justiție.",
+      "lectie_pentru_blueprint": "bază instituțională modernă",
+      "surse": [
+        "S07"
+      ],
+      "url_text_integral": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/1413",
+      "text_integral_inclus": false
+    },
+    {
+      "id": "C10",
+      "an": "2003",
+      "titlu": "Revizuirea din 2003 a Constituției din 1991",
+      "categorie": "revizuire constituțională",
+      "regim": "republică democratică",
+      "analiza": "Compatibilizare și modernizare inclusiv pentru integrarea euro-atlantică; ediția republicată în vigoare, cu obligația de verificare a formei consolidate la data folosirii.",
+      "lectie_pentru_blueprint": "norma constituțională de lucru",
+      "surse": [
+        "S08"
+      ],
+      "url_text_integral": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/47355",
+      "text_integral_inclus": false
+    }
+  ],
+  "contentDate": "2026-10-25"
+}

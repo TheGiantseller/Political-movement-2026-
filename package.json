@@ -1,0 +1,33 @@
+{
+  "name": "romania-2030-civic-blueprint",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "content:validate": "node scripts/validate-content.mjs",
+    "content:audit": "node scripts/audit-content.mjs",
+    "release:check": "npm run content:validate && npm test && npm run lint && npm run typecheck && npm run build && npm run test:e2e",
+    "predev": "npm run content:normalize",
+    "prebuild": "npm run content:normalize",
+    "content:normalize": "node scripts/normalize-content.mjs",
+    "test": "node --test",
+    "test:e2e": "node scripts/http-smoke.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "16.4.3",
+    "typescript": "^5.9.0"
+  }
+}

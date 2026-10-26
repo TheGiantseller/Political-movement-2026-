@@ -1,0 +1,10 @@
+import fs from "node:fs";
+if(!fs.existsSync("content/source/Blueprint_Romania_2026_2030_Victor_v1.json")){console.log("Private blueprint source is not present; see committed docs/CONTENT_COVERAGE.json.");process.exit(0)}
+
+const d=JSON.parse(fs.readFileSync("content/source/Blueprint_Romania_2026_2030_Victor_v1.json","utf8"));
+const ids=d.portofoliu_reforme.map(x=>x.id);
+const counts={reforms:ids.length,laws:d.schite_proiecte_de_lege.length,quarters:d.strategie_48_luni.calendar_16_trimestre.length,sources:d.registru_surse.length,constitutionalItems:d.istorie_constitutionala.inventar.length};
+const report={sourceDate:d.model_date,counts,reformIds:ids,budgetValues:{reformEntriesWithUnknownCosts:d.portofoliu_reforme.filter(x=>Object.values(x.estime_financiare_de_colectat||{}).some(v=>v===null)).length,quarterCostsUnknown:d.strategie_48_luni.calendar_16_trimestre.filter(x=>x.cost_estimat_LEI==null).length},withheldFromPublicUI:{reformId:"JUST-03",sourceIds:["S27","S28"],reason:"review editorial și juridic necesar pentru cazul penal"},review:"Draft de consultare; conținutul juridic și linkurile necesită verificare actualizată."};
+fs.mkdirSync("docs",{recursive:true});fs.writeFileSync("docs/CONTENT_COVERAGE.json",JSON.stringify(report,null,2)+"\n");
+const md=`# Acoperirea conținutului\n\nSursă cu data de referință ${report.sourceDate}.\n\n- ${counts.reforms} intrări în portofoliu; ${counts.reforms-1} fișe afișate, una reținută pentru review.\n- ${counts.laws} schițe legislative.\n- ${counts.quarters} trimestre. Toate costurile trimestriale sunt necunoscute: ${report.budgetValues.quarterCostsUnknown}.\n- ${counts.sources} referințe la sursă; 30 afișate, S27/S28 reținute.\n- ${counts.constitutionalItems} acte constituționale și preconstituționale.\n\n## ID-uri din inventarul-sursă\n\n${ids.map(id=>`- ${id}${id==="JUST-03"?" — reținut din UI până la review":""}`).join("\n")}\n\n${report.review}\n`;
+fs.writeFileSync("docs/CONTENT_COVERAGE.md",md);console.log(JSON.stringify(counts));

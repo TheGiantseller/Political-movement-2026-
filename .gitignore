@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+.env*
+!.env.example
+*.tsbuildinfo
+.DS_Store
+.vercel
+source-package/
+.codex-remote-attachments/
+content/source/*
+!content/source/.gitkeep

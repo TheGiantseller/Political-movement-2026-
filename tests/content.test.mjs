@@ -1,0 +1,10 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import fs from "node:fs";
+const sourcePath="content/source/Blueprint_Romania_2026_2030_Victor_v1.json";
+const source=fs.existsSync(sourcePath)?JSON.parse(fs.readFileSync(sourcePath,"utf8")):null;
+const publicData=JSON.parse(fs.readFileSync("content/normalized/public-content.json","utf8"));
+test("source inventory matches expected coverage",()=>{const inv=source?{reforms:source.portofoliu_reforme.length,laws:source.schite_proiecte_de_lege.length,quarters:source.strategie_48_luni.calendar_16_trimestre.length,sources:source.registru_surse.length,constitutionalItems:source.istorie_constitutionala.inventar.length}:publicData.inventory;assert.deepEqual(inv,{reforms:50,laws:10,quarters:16,sources:32,constitutionalItems:11})});
+test("public content omits case record and media references",()=>{assert.equal(publicData.reforms.length,49);assert.ok(!publicData.reforms.some(x=>x.id==="JUST-03"));assert.ok(!publicData.sources.some(x=>["S27","S28"].includes(x.id)));assert.ok(!JSON.stringify(publicData).toLowerCase().includes("valentina"))});
+test("public IDs unique and linked public sources resolve",()=>{for(const xs of [publicData.reforms,publicData.laws,publicData.quarters,publicData.sources,publicData.constitutions])assert.equal(new Set(xs.map(x=>x.id)).size,xs.length);const ids=new Set(publicData.sources.map(x=>x.id));for(const r of publicData.reforms)for(const id of r.temeiuri_si_surse||[])assert.ok(ids.has(id),`${r.id} -> ${id}`)});
+test("unknown costs remain unestimated",()=>{assert.ok(publicData.quarters.every(x=>x.cost_estimat_LEI===null));assert.match(fs.readFileSync("reformelib/data.ts","utf8"),/Neestimat/) });
