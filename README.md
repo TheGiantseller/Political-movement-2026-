@@ -45,7 +45,7 @@ Acesta este un draft de consultare. Propunerile nu sunt legi adoptate, calendaru
 
 ## Publicare
 
-Proiectul este configurat local. Repository-ul GitHub, Vercel, domeniul, identitatea publică și datele de contact nu au fost configurate. Proiectul rămâne `noindex` până la revizuire și configurarea URL-ului real. Consultă [runbook-ul](docs/PUBLICATION_RUNBOOK.md).
+Repository-ul GitHub și proiectul Vercel sunt configurate; există deja un deployment public pe URL-ul Vercel, dar nu este aprobată o lansare finală și nu există domeniu propriu. Identitatea juridică a operatorului și datele publice de contact sunt încă de completat. Proiectul rămâne `noindex` până la revizuirea editorială și juridică. Consultă [runbook-ul](docs/PUBLICATION_RUNBOOK.md) și [revizia de securitate](docs/SECURITY_REVIEW.md).
 
 ## Licență și referință tehnică
 

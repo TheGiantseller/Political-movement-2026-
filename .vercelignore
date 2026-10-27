@@ -1,0 +1,16 @@
+# Private editorial sources and local attachments must never be uploaded.
+content/source/
+source-package/
+.codex-remote-attachments/
+
+# No environment-file examples or local values are needed in the deployment.
+.env*
+
+# These files support authoring and CI, not the deployed application.
+.github/
+docs/
+tests/
+README.md
+AGENTS.md
+LICENSE
+*.tsbuildinfo
